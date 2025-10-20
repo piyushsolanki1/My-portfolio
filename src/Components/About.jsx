@@ -60,7 +60,7 @@ const About = () => {
                 </span>
               </div>
               <div className="flex">
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 font-mono text-sm">
+                <div className=" p-4 font-mono text-sm m-auto">
                   <div className="text-gray-500 dark:text-gray-400">
                     // Developer signature
                   </div>
