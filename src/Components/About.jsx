@@ -1,13 +1,13 @@
 import React from "react";
 import { BookOpenText, BriefcaseBusiness, Hammer, Rocket } from "lucide-react";
-
+import profileImage from "../assets/ProfileImage.jpg";
 const About = () => {
   return (
     <section id="about" className="bg-gray-100 dark:bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-6 ">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-gray-900 dark:text-white font-semibold">
-            About <span className="text-[#F97316]">Piyush</span>
+            About <span className="text-[#F97316]">Me</span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             A passionate frontend developer on a mission to create exceptional
@@ -21,7 +21,7 @@ const About = () => {
               <div className="flex gap-5 ">
                 <span>
                   <img
-                    src="src/assets/WhatsApp Image 2025-10-19 at 4.57.15 PM.jpeg"
+                    src={profileImage}
                     alt=""
                     className="h-15 w-15 rounded-full"
                   />
@@ -90,7 +90,7 @@ const About = () => {
           </div>
           <div className="order-1 lg:order-2 justify-center flex">
             <img
-              src="src/assets/WhatsApp Image 2025-10-19 at 4.57.15 PM.jpeg"
+              src={profileImage}
               alt=""
               className="w-80 h-80 rounded-2xl mt-30"
             />
