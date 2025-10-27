@@ -3,7 +3,7 @@ const ProjectsData = [
         title: "Mood Tracker Web",
         description: "A React-based mood tracking application with data visualization, user authentication, and mood analytics. Built with modern React hooks and context API for state management.",
         image: "https://images.unsplash.com/photo-1585229259079-05ab82f93c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTkxNDk2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        tags: ["React", "TypeScript", "Chart.js", "Context API", "Local Storage"],
+        tags: ["React", "Javascript", "Context API", "Local Storage"],
         demoUrl: "https://mood-companion.vercel.app",
         codeUrl: "https://github.com/piyushsolanki1/mood-companion.git"
       },
@@ -11,7 +11,7 @@ const ProjectsData = [
         title: "Fitness/Calisthenics Website",
         description: "Comprehensive fitness tracking application focused on calisthenics workouts. Includes exercise libraries, progress tracking, and workout planning with interactive UI elements.",
         image: "https://images.unsplash.com/photo-1571952288324-552b8c0daceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwYXBwJTIwbW9iaWxlJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc1OTE5OTA5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        tags: ["React", "Tailwind CSS", "Framer Motion", "React Hook Form", "PWA"],
+        tags: ["React", "Tailwind CSS", "Framer Motion", "React Hook Form"],
         demoUrl: "https://calisthenics-web-nine.vercel.app",
         codeUrl: "https://github.com/piyushsolanki1/Calisthenics-web.git"
       },
