@@ -129,7 +129,7 @@ const Contact = () => {
           </div>
 
           {/* Social + Info */}
-          <div className="grid lg:grid-cols-1 grid-cols-2 gap-6">
+          <div className="grid lg:grid-cols-1 grid-cols-1 gap-6">
             <div className="text-left p-8 rounded-xl shadow-xl bg-gray-50 dark:bg-gray-800">
               <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
                 Connect with me on
@@ -141,7 +141,7 @@ const Contact = () => {
                     <a
                       key={index}
                       href={social.url}
-                      className={`flex items-center p-4 rounded-xl bg-white dark:bg-gray-900 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group ${social.color}`}
+                      className={`flex items-center p-4 rounded-xl bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 group ${social.color}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >

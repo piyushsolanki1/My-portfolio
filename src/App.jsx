@@ -7,20 +7,17 @@ import Projects from './Components/Projects.jsx';
 import About from './Components/About.jsx';
 import Contact from './Components/Contact.jsx';
 import Footer from './Components/Footer.jsx';
+import RevealSection from './Components/RevealSection.jsx';
+
 function App() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    // Check localStorage for saved theme preference
     const savedTheme = localStorage.getItem('theme');
-
-    // Check system preference if no saved theme
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
     const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
     setTheme(initialTheme);
 
-    // Apply theme to document
     if (initialTheme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
@@ -31,11 +28,8 @@ function App() {
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
-
-    // Update localStorage
     localStorage.setItem('theme', newTheme);
 
-    // Update document class
     if (newTheme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
@@ -46,11 +40,27 @@ function App() {
   return (
     <>
       <Navbar toggleTheme={toggleTheme} theme={theme} />
-      <Hero />
-      <Skills />
-      <Projects />
-      <About />
-      <Contact />
+
+      <RevealSection direction="up">
+        <Hero />
+      </RevealSection>
+
+      <RevealSection direction="left">
+        <Skills />
+      </RevealSection>
+
+      <RevealSection direction="right">
+        <Projects />
+      </RevealSection>
+
+      <RevealSection direction="up">
+        <About />
+      </RevealSection>
+
+      <RevealSection direction="down">
+        <Contact />
+      </RevealSection>
+
       <Footer />
     </>
   );

@@ -99,7 +99,7 @@ const About = () => {
         <div className="mt-20">
           <h3 className="text-3xl font-semibold">
             Development <span className="text-[#61DBFB]">Journey</span>
-            <div className="grid lg:grid-cols-4 grid-cols-2 gap-8 max-w-7xl mx-auto mt-12">
+            <div className="grid lg:grid-cols-4 grid-cols-1 gap-8 max-w-7xl mx-auto mt-12">
               <div className="flex flex-col items-center border-[#61DBFB] border-2 rounded-xl p-8 gap-2 shadow-sm hover:shadow-xl transition-all duration-300">
                 <span>
                   <BookOpenText />
