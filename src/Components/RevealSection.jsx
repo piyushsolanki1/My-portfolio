@@ -31,7 +31,7 @@ const RevealSection = ({ children, direction = "up", delay = 0 }) => {
       ref={ref}
       className={`transform transition-all duration-1000 ease-out opacity-0 ${
         visible
-          ? "opacity-100 translate-x-0 translate-y-0"
+          ? "opacity-100 translate-x-0 translate-y-1"
           : directionClass
       }`}
       style={{ transitionDelay: `${delay}ms` }}

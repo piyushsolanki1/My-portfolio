@@ -8,6 +8,7 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact.jsx';
 import Footer from './Components/Footer.jsx';
 import RevealSection from './Components/RevealSection.jsx';
+import { Snowfall } from 'react-snowfall';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <>
+    <Snowfall />
       <Navbar toggleTheme={toggleTheme} theme={theme} />
 
       <RevealSection direction="up">
