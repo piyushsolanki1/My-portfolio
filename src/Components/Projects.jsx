@@ -26,7 +26,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                className="w-full h-48 object-cover transition delay-150 duration-600 ease-in-out hover:-translate-y-1 transform hover:scale-110"
               />
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
