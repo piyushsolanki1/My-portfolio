@@ -45,7 +45,6 @@ const Contact = () => {
     {
       name: "Gmail",
       icon: Mail,
-      url: "mailto:solankipiyush6264@gmail.com",
       color: "hover:text-red-500",
       description: "Send direct email",
     },
