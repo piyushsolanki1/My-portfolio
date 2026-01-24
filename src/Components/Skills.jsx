@@ -33,7 +33,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="bg-gray-100 dark:bg-gray-900 pb-12">
+    <section id="skills" className="scroll-mt-16 min-h-screen bg-white dark:bg-gray-900 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-gray-900 dark:text-white font-semibold pt-12">

@@ -21,7 +21,7 @@ const Contact = () => {
           form.current.reset();
         },
         (error) => {
-          alert("❌ Failed to send message. Try again later.");
+          alert("Failed to send message. Try again later.");
           console.error(error.text);
         }
       );
@@ -52,7 +52,10 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="bg-white dark:bg-gray-900 py-16">
+<section
+  id="contact"
+  className="scroll-mt-16 min-h-screen bg-white dark:bg-gray-900 py-16"
+>
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

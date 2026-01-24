@@ -4,7 +4,7 @@ import { BookOpenText, BriefcaseBusiness, Hammer, Rocket } from "lucide-react";
 import profile from "../assets/profile.png";
 const About = () => {
   return (
-    <section id="about" className="bg-gray-100 dark:bg-gray-800 py-16">
+    <section id="about" className="scroll-mt-16 min-h-screen bg-gray-100 dark:bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-6 ">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl mb-4 text-gray-900 dark:text-white font-semibold">
@@ -100,7 +100,7 @@ const About = () => {
         <div className="mt-20">
           <h3 className="text-3xl font-semibold">
             Development <span className="text-[#61DBFB]">Journey</span>
-            <div className="grid lg:grid-cols-4 grid-cols-1 gap-8 max-w-7xl mx-auto mt-12">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 max-w-6xl mx-auto mt-12">
               <div className="flex flex-col items-center border-[#61DBFB] border-2 rounded-xl p-8 gap-2 shadow-sm hover:shadow-xl transition-all duration-300">
                 <span>
                   <BookOpenText />
@@ -127,19 +127,7 @@ const About = () => {
                 Creating real-world applications to solidify skills and explore new technologies
                 </p>
               </div>
-              <div className="flex flex-col items-center border-[#61DBFB] border-2 rounded-xl p-8 gap-2 shadow-sm hover:shadow-xl transition-all duration-300">
-                <span>
-                  <BriefcaseBusiness />
-                </span>
-                <span className="text-sm font-mono bg-[#61DBFB] text-white rounded-md mt-2 transition-colors duration-200 p-1">
-                Freelancing
-                </span>
-                <h3 className="text-xl">Client Work
-                </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
-                Taking on freelance projects to gain professional experience
-                </p>
-              </div>
+
               <div className="flex flex-col items-center border-[#61DBFB] border-2 rounded-xl p-8 gap-2 shadow-sm hover:shadow-xl transition-all duration-300">
                 <span>
                   <Rocket />

@@ -3,7 +3,10 @@ import ProjectsData from "../assets/Data/ProjectsData";
 import { GithubIcon } from "lucide-react";
 const Projects = () => {
   return (
-    <section id="projects" className="bg-white dark:bg-gray-900 py-16">
+<section
+  id="projects"
+  className="scroll-mt-16 min-h-screen bg-white dark:bg-gray-900 py-16"
+>
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
