@@ -91,7 +91,7 @@ const About = () => {
           </div>
           <div className="order-1 lg:order-2 justify-center flex">
             <img
-              src={profile}
+              src={profileImage}
               alt=""
               className="w-80 h-80 rounded-2xl mt-30 object-cover"
             />
