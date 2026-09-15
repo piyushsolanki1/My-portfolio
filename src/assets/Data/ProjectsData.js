@@ -18,7 +18,7 @@ const ProjectsData = [
       {
         title: "strangers chatting app",
         description: "A React.js-based chatting web application that allows users to connect and chat with strangers in real-time. Features include user authentication, chat rooms, and message notifications using WebSockets.",
-        image: "https://dribbble.com/tags/web-chat",
+        image: "https://plus.unsplash.com/premium_photo-1718560021366-2f50cf0fdc76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         tags: ["React", "Tailwind", "Web Audio API", "React Router", "JSON"],
         demoUrl: "https://pre-talk-chi.vercel.app/",
         codeUrl: "https://github.com/piyushsolanki1/pre-talk.git"
