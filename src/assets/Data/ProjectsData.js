@@ -16,12 +16,12 @@ const ProjectsData = [
         codeUrl: "https://github.com/piyushsolanki1/Calisthenics-web.git"
       },
       {
-        title: "Anime Discovery Platform",
-        description: "A React.js-based anime discovery platform where users can search, filter, and explore anime titles with real-time data from APIs. Built with a responsive UI and smooth, interactive experience.",
-        image: "https://cdn.dribbble.com/userupload/34791234/file/original-04b5e1d7096629f0aaf33b42e96673a5.png?format=webp&resize=400x300&vertical=center",
+        title: "strangers chatting app",
+        description: "A React.js-based chatting web application that allows users to connect and chat with strangers in real-time. Features include user authentication, chat rooms, and message notifications using WebSockets.",
+        image: "https://dribbble.com/tags/web-chat",
         tags: ["React", "Tailwind", "Web Audio API", "React Router", "JSON"],
-        demoUrl: "https://aniverse-web.vercel.app",
-        codeUrl: "https://github.com/piyushsolanki1/aniverse-web.git"
+        demoUrl: "https://pre-talk-chi.vercel.app/",
+        codeUrl: "https://github.com/piyushsolanki1/pre-talk.git"
       },
      
     ];
