@@ -1,6 +1,6 @@
 import React from "react";
 import { BookOpenText, BriefcaseBusiness, Hammer, Rocket } from "lucide-react";
-// import profileImage from "../assets/ProfileImage.jpg";
+import profileImage from "../assets/ProfileImage.jpg";
 import profile from "../assets/profile.png";
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
               <div className="flex gap-5 ">
                 <span>
                   <img
-                    src={profile}
+                    src={profileImage}
                     alt=""
                     className="h-15 w-15 rounded-full object-cover"
                   />
